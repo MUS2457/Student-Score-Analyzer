@@ -1,23 +1,20 @@
-Expense Tracker
+🎓 Student Score Analyzer
 
-By Amine Mustapha
+A beginner-friendly Python script that collects student names and scores, assigns grades, and shows summary stats like average, highest, and lowest score.
 
-Python mini-project to track expenses.
+💡 Features
 
-v1 – Basic Tracker
+Add multiple students and scores
 
-Enter product name and price
+Calculates grades (A–F)
 
-Calculates total, average, max, min
+Shows average, max, and min scores
 
-v2 – Nested Dictionary Tracker
 
-Enter product name, category, and price
+▶️ Run
 
-Stores data in nested dictionaries
+python student-score-analyzer.py
 
-Calculates total, average, most expensive, cheapest
+🧠 Concepts Used
 
-Ready for category totals and future upgrades
-
-Skills: loops, dictionaries, nested dictionaries, lambda, sum, max/min, user input
+Functions • Loops • Dictionaries • Conditionals
