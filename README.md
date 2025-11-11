@@ -1,20 +1,48 @@
-Student Score Analyzer
+🎓 Student Score Analyzer
 
-A beginner-friendly Python script that collects student names and scores, assigns grades, and shows summary stats like average, highest, and lowest score.
+A beginner-friendly Python script that collects student names, subjects, and scores, assigns grades (A–F), and generates summary statistics like averages, top and lowest students, and class grades.
 
 💡 Features
 
-Add multiple students and scores
+Add multiple students and subjects
 
-Calculates grades (A–F)
+Automatically calculates:
 
-Shows average, max, and min scores
+Individual averages and grades
 
-Concepts Used
+Top and lowest student
 
-Functions • Loops • Dictionaries • Conditionals
+Overall class average and grade
 
-v2 records students’ names, subjects, and scores, then calculates:
+Saves all results with timestamps to both .txt and .json files
+
+🧠 Concepts Used
+
+Functions
+
+Loops
+
+Dictionaries (including nested)
+
+Conditionals
+
+Error handling
+
+File handling (txt & json)
+
+datetime module
+
+🧩 Version Progress
+🧮 v1
+
+Basic student name and score recording
+→ Simple grade calculation (A–F)
+
+📊 v2
+
+Records students + subjects + scores
+
+Calculates:
 
 Top and lowest student
 
@@ -22,14 +50,33 @@ Class average with letter grade
 
 Individual student grades
 
-Timestamped summary saved to file
+Generates a timestamped summary in student_tracker.txt
 
-Features
+🚀 v3 (Current Version)
 
-Uses nested dictionaries for student data
+Added input validation (try/except for invalid scores)
 
-Calculates max, min, average automatically
+Stores data in JSON format for easy reuse
 
-Assigns letter grades (A–F)
+Generates two reports:
 
-Saves full report with timestamp to student_tracker.txt
+student score analyser v3.txt — human-readable summary
+
+student score analyser v3.json — structured data
+
+Includes:
+
+Average per student
+
+Class average and grade
+
+Top and lowest performer
+
+Timestamp of when the report was created
+
+Improved output formatting and clean data structure
+👋 Mustapha — self-taught Python learner based in Japan.
+Built this project after only 1 month and 1 week of study, while working full-time .
+Focused on logic, clarity, and real-world learning through project versions.
+
+“I’m doing coding for my personal joy, not for money
