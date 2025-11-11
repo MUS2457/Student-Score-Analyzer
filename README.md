@@ -2,7 +2,7 @@
 
 A beginner-friendly Python script that collects student names, subjects, and scores, assigns grades (A–F), and generates summary statistics like averages, top and lowest students, and class grades.
 
-💡 Features
+ Features
 
 Add multiple students and subjects
 
@@ -16,7 +16,7 @@ Overall class average and grade
 
 Saves all results with timestamps to both .txt and .json files
 
-🧠 Concepts Used
+* Concepts Used
 
 Functions
 
@@ -38,7 +38,7 @@ datetime module
 Basic student name and score recording
 → Simple grade calculation (A–F)
 
-📊 v2
+* v2
 
 Records students + subjects + scores
 
@@ -52,7 +52,7 @@ Individual student grades
 
 Generates a timestamped summary in student_tracker.txt
 
-🚀 v3 (Current Version)
+* v3 (Current Version)
 
 Added input validation (try/except for invalid scores)
 
@@ -75,6 +75,7 @@ Top and lowest performer
 Timestamp of when the report was created
 
 Improved output formatting and clean data structure
+*** about dev :
 👋 Mustapha — self-taught Python learner based in Japan.
 Built this project after only 1 month and 1 week of study, while working full-time .
 Focused on logic, clarity, and real-world learning through project versions.
